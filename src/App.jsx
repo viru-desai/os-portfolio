@@ -4,7 +4,7 @@ import bgImage from "./assets/WindowsXp.jpg";
 import profileImg from "./assets/profile.jpeg";
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [password, setPassword] = useState("");
   const [startOpen, setStartOpen] = useState(false);
 const [search, setSearch] = useState("");
